@@ -11,6 +11,7 @@ class MyMain // name of the class, Zoo, TbilisiZooSaburtalo
         // აქ გამომყავს კონსოლში შეტყობინება, single-line comment
         Console.WriteLine("Welcome to C sharp..."); // text + გადასვლა ახალ სტრიქონზე
         Console.WriteLine("Mr. Archil");
+        Console.WriteLine("Empty message");
     }
 
     /// <summary>
