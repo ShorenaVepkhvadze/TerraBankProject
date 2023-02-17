@@ -1,25 +1,28 @@
 ﻿/*
-* This is a learning project in scopes of the C# course fop
-* Terra Bank employes...
-* 
+* ეს არის პროგრამა, რომლის ფარგლებშიც ვსწავლობთ C# საფუძვლებს.
+* დამატებითი ინფორმაცია...
 */
-
-class MyMain // name of the class, Zoo, TbilisiZooSaburtalo
+class Program
 {
-    static void Main(string[] args) // entry point, from which program starts
+    static void Main(string[] args)
     {
-        // აქ გამომყავს კონსოლში შეტყობინება, single-line comment
-        Console.WriteLine("Welcome to C sharp..."); // text + გადასვლა ახალ სტრიქონზე
-        Console.WriteLine("Mr. Archil");
-        Console.WriteLine("Empty message");
-        // This is additional message to updated
+        // აქედან იწყება ჩემი პროგრამა
+        //getMyAge();
+        Console.WriteLine("This is the first line...");
+        Console.WriteLine(); // second
+        Console.WriteLine("Third");
+        Console.WriteLine("Fourth");
+
+        //Console.WriteLine();
+        Console.Write("Archil");
+        Console.Write(" Sikharulidze");
     }
 
     /// <summary>
-    /// This method counts amount of cows, pigs in the farm.
+    /// 
     /// </summary>
-    static void regularMethod()
+    static void getMyAge()
     {
-        Console.WriteLine();
+        // empty method
     }
 }
