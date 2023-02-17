@@ -12,6 +12,7 @@ class MyMain // name of the class, Zoo, TbilisiZooSaburtalo
         Console.WriteLine("Welcome to C sharp..."); // text + გადასვლა ახალ სტრიქონზე
         Console.WriteLine("Mr. Archil");
         Console.WriteLine("Empty message");
+        // This is additional message to updated
     }
 
     /// <summary>
