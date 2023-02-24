@@ -1,6 +1,6 @@
 ﻿class LessonFive
 {
-    static void MMain(string[] args) // შესვლის წერტილის მეთოდი, მხოლოდ ერთი
+    static void Main(string[] args) // შესვლის წერტილის მეთოდი, მხოლოდ ერთი
     {
         // Loops
         // Advanced methods
