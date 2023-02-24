@@ -1,6 +1,6 @@
 ﻿class LessonFive
 {
-    static void Main(string[] args) // შესვლის წერტილის მეთოდი, მხოლოდ ერთი
+    static void MMain(string[] args) // შესვლის წერტილის მეთოდი, მხოლოდ ერთი
     {
         // Loops
         // Advanced methods
@@ -28,10 +28,10 @@
             Console.WriteLine("You have WON!");
         } else if (randomNumber > usersNumber)
         {
-            Console.WriteLine("Your number is higher than random number.");
+            Console.WriteLine("Your number is lower than random number.");
         } else if (randomNumber < usersNumber)
         {
-            Console.WriteLine("Your number is lower than random number.");
+            Console.WriteLine("Your number is higher than random number.");
         }
     }
 
