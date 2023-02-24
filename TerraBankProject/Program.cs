@@ -255,5 +255,8 @@
         int numb2 = 20;
         int sum = (numb1 > numb2) ? numb1 : numb2; // if (numb1 > numb2) {sum = numb1}
                                                    // else {sum = numb2};
+
+        Random random= new Random();
+        random.Next();
     }
 }
