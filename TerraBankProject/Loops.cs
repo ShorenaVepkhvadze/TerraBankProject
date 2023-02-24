@@ -1,6 +1,6 @@
 ﻿class Loops
 {
-    static void Main(string[] args)
+    static void MMain(string[] args)
     {
         // Loops
         // კოდის გამეორების სტრუქტურა
