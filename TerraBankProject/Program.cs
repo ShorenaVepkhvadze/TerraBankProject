@@ -2,7 +2,20 @@
 {
     static void Main(string[] args)
     {
-        // Empty
+        // class არსებილი სახელი, პირველი ასო უნდა იყოს დიდი
+        // ცვლადები უნდა იყოს არსებითი სახელი და აგრეთვე იწერებოდეს myAge, age
+        // მეთოდი არის ზმნა calculateBMI, getMyAge
+        // მეთოდი არის ზმნა CalculateBMI, GetMyAge
+        int number1 = 19;
+        int number2 = 20;
+        int sum = number1 + number2;
+
+        Console.WriteLine(getMethod()); // method call
+    }
+
+    static int getMethod()
+    {
+        return 10 * 10;
     }
 
     static void homework()
