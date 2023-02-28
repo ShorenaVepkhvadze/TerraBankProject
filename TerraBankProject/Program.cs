@@ -3,6 +3,23 @@
     static void Main(string[] args) // შესვლის წერტილის მეთოდი, მხოლოდ ერთი
     {
         Console.WriteLine(getIntegerSum(91, 78)); // method call
+        // class არსებილი სახელი, პირველი ასო უნდა იყოს დიდი
+        // ცვლადები უნდა იყოს არსებითი სახელი და აგრეთვე იწერებოდეს myAge, age
+        // მეთოდი არის ზმნა calculateBMI, getMyAge
+        // მეთოდი არის ზმნა CalculateBMI, GetMyAge
+    }
+
+    static void homework()
+    {
+        /* 1.შევქმნათ სამი ცვლადი(x, z, y). მივანიჭოთ მნიშვნელობები. 
+ * გამოვიყვანოთ კონსოლში: x + z * y = ჯამი; მაგ. 4, 5, 10 - ის შედეგია 54.
+ */
+        int x = 4;
+        int z = 2;
+        int y = 5;
+
+        int sum = x + (z * y); // ()
+        Console.WriteLine("The sum of x (4) + z (2) * y (5) equals to: " + sum);
 
         Console.WriteLine();
         getMaxMin();
