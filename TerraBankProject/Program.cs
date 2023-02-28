@@ -2,9 +2,19 @@
 {
     static void Main(string[] args)
     {
+        Console.Write("Enter your weight in kg: ");
+        double kg = double.Parse(Console.ReadLine());
+        Console.Write("Enter yous height in cm: ");
+        int cm = Int32.Parse(Console.ReadLine());
+        double BMI = kg / ((cm / 100) * 2);
+        Console.WriteLine("Your Bmi is: " + BMI);
+    }
+
+    static void homework()
+    {
         /* 1.შევქმნათ სამი ცვლადი(x, z, y). მივანიჭოთ მნიშვნელობები. 
-         * გამოვიყვანოთ კონსოლში: x + z * y = ჯამი; მაგ. 4, 5, 10 - ის შედეგია 54.
-         */
+ * გამოვიყვანოთ კონსოლში: x + z * y = ჯამი; მაგ. 4, 5, 10 - ის შედეგია 54.
+ */
         int x = 4;
         int z = 2;
         int y = 5;
